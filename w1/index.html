@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funzioni JS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Funzioni con JS</h1>
+
+    <section>
+      <h2>1. Controlla due numeri</h2>
+      <input id="num1" type="number" placeholder="Inserisci il primo numero">
+      <input id="num2" type="number" placeholder="Inserisci il secondo numero">
+      <button onclick="controllaNumeri()">Controlla</button>
+      <p id="risultato1"></p>
+    </section>
+
+    <section>
+      <h2>2. Rimuovi un carattere da una stringa</h2>
+      <input id="stringa" type="text" placeholder="Inserisci una stringa">
+      <input id="posizione" type="number" placeholder="Inserisci una posizione">
+      <button onclick="rimuoviCarattere()">Rimuovi</button>
+      <p id="risultato2"></p>
+    </section>
+
+    <section>
+      <h2>3. Controlla numeri tra range</h2>
+      <input id="num3" type="number" placeholder="Inserisci il primo numero">
+      <input id="num4" type="number" placeholder="Inserisci il secondo numero">
+      <button onclick="controllaRange()">Controlla</button>
+      <p id="risultato3"></p>
+    </section>
+
+    <section>
+      <h2>4. Nome città</h2>
+      <input id="citta" type="text" placeholder="Inserisci il nome della città">
+      <button onclick="controllaCitta()">Controlla</button>
+      <p id="risultato4"></p>
+    </section>
+    
+    <section>
+      <h2>5. Somma elementi di un array</h2>
+      <input id="arraySomma" type="text" placeholder="Inserisci numeri separati da virgole">
+      <button onclick="calcolaSomma()">Calcola</button>
+      <p id="risultato5"></p>
+    </section>
+    
+    <section>
+      <h2>6. Controlla array (no 1 e 3)</h2>
+      <input id="arrayControllo" type="text" placeholder="Inserisci numeri separati da virgole">
+      <button onclick="controllaArray()">Controlla</button>
+      <p id="risultato6"></p>
+    </section>
+
+    <section>
+      <h2>7. Tipo di angolo</h2>
+      <input id="angolo" type="number" placeholder="Inserisci il valore dell'angolo (°)">
+      <button onclick="trovaTipoAngolo()">Controlla</button>
+      <p id="risultato7"></p>
+    </section>
+    
+    <section>
+      <h2>8. Genera acronimo</h2>
+      <input id="frase" type="text" placeholder="Inserisci una frase">
+      <button onclick="creaAcronimo()">Genera</button>
+      <p id="risultato8"></p>
+    </section>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
